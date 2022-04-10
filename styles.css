@@ -74,8 +74,12 @@ padding: 10px;
 .flex{
 display: flex;
 justify-content: space-between;
-flex-grow: 2;
+flex-grow: 1;
 
+}
+
+.portofolio{
+    margin-top: 30px;
 }
 
 .profil{
