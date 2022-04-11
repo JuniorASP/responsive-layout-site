@@ -51,6 +51,11 @@ max-width: 100%;
 margin: 0 auto;
 }
 
+.flex{
+        display: flex;
+        justify-content: space-between;
+        
+}
 
 #foot,h3,h4{
 text-align: center;
@@ -59,11 +64,6 @@ color: rgb(143, 146, 146);
 
 #foot{
 font-size: 20px;
-}
-
-h5{
-display: inline-block;
-margin: 3vh;
 }
 
 
