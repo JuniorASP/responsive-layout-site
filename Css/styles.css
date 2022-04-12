@@ -35,11 +35,8 @@ color: rgb(143, 146, 146);
 font-size: 30px;
 }
 
-.container{
-display: flex; 
-flex-direction: column;
 
-}
+
 .profil{
 max-width: 70%;
 margin: auto;
@@ -88,15 +85,12 @@ flex-grow: 1;
    
 }
 
-.container, 
-.col,
-.box, 
-.schoen,
-.okey, 
-.doos
-{
+.container{
  display: flex;
+ flex-wrap: wrap;
  width: 40%;
+ 
+
 }
 
 }
