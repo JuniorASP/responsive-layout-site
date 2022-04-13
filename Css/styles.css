@@ -15,6 +15,7 @@ ul li{
 margin: 10px;
 font-family: 'Inter', sans-serif;
 padding: 5px;
+background-color: rgb(210, 213, 216);
 }
 
 
@@ -88,9 +89,25 @@ flex-grow: 1;
 .container{
  display: flex;
  flex-wrap: wrap;
- width: 40%;
- 
-
+ justify-content: space-between;
 }
 
+.card{
+    width: 48%;
+}
+
+@media (min-width: 1024px){
+
+.jaa{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+   
+}
+.card{
+    width: 33%;
+}
+}
 }
